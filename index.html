@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find my Vibe</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>find my Vibe</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">Watchlist</a></li>
+          <li><a href="#">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="hero">
+        <h2>Find the perfect movie to watch</h2>
+        <p>Our recommendation algorithm suggests movies based on your preferences and viewing history.</p>
+        <button>Sign Up Now</button>
+      </section>
+      
+      <section id="movies">
+        <h2>Movies</h2>
+        <form>
+          <label for="genre-select">Filter by genre:</label>
+          <select id="genre-select">
+            <option value="all">All</option>
+            <option value="action">Action</option>
+            <option value="comedy">Comedy</option>
+            <option value="drama">Drama</option>
+            <option value="horror">Horror</option>
+          </select>
+        </form>
+        <ul>
+          <!-- movie cards will be generated dynamically using JavaScript -->
+        </ul>
+      </section>
+      
+      <section id="watchlist">
+        <h2>Watchlist</h2>
+        <ul>
+          <!-- watchlist items will be generated dynamically using JavaScript -->
+        </ul>
+      </section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 Movie Recommendation Website</p>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

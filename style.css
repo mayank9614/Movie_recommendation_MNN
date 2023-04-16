@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  #hero {
+    background-color: #eee;
+    padding: 4rem;
+    text-align: center;
+  }
+  
+  #hero h2 {
+    margin-top: 0;
+  }
+  
+  #hero button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  #hero button:hover {
+    background-color: white;
+    color: #333;
+  }
+  
+  #movies {
+    margin-top: 2rem;
+  }
+  
+  #movies h2 {
+    margin-top: 0;
+  }
+  
+  #movies form {
+    margin-bottom: 1rem;
+  
