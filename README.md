@@ -17,12 +17,13 @@ Reviews: You can read reviews from other users and leave your own reviews for mo
 
 Filtering: You can filter movies by genre, rating, and release date to find the perfect movie to watch.
 
+
 Technologies Used
 Our website was built using a variety of technologies, including:
 
 Python: We used Python to build our recommendation algorithm.
 
-Flask: Our website is built usiadd ng the Flask web framework.
+Django: Our website is built usiadd ng the Django web framework.
 
 PostgreSQL: We used PostgreSQL as our database management system.
 
@@ -38,6 +39,6 @@ Personalization: We plan to improve our recommendation algorithm to provide even
 Mobile app: We plan to develop a mobile app that will allow you to access our website on-the-go.
 
 Contact Us
-If you have any questions or feedback, please don't hesitate to contact us at support@movierecommendation.com.
+If you have any questions or feedback, please don't hesitate to contact us at mayank.96anand@gmail.com.
 
 Thank you for using our website, and happy movie watching!
