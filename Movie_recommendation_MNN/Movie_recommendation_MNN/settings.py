@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'Movie_recommendation_MNN.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'MovieDB',
+        'USER': 'postgres',
+        'PASSWORD': '3008',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
